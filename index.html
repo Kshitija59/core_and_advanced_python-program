@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Create Account</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" class="logo">
+    <div class="form-box">
+      <h2>Create account</h2>
+      <form>
+        <label for="name">Your name</label>
+        <input type="text" id="name" placeholder="First and last name" required>
+
+        <label for="email">Mobile number or email</label>
+        <input type="text" id="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="At least 6 characters" required>
+        <small>Passwords must be at least 6 characters.</small>
+
+        <label for="re-password">Re-enter password</label>
+        <input type="password" id="re-password" required>
+
+        <button type="submit">Continue</button>
+      </form>
+      <p class="agreement">
+        By creating an account, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.
+      </p>
+      <div class="links">
+        <p>Already have an account? <a href="#">Sign in</a></p>
+        <p>Buying for work? <a href="#">Create a free business account</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
