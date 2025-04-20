@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Glenary's Restaurant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar h2 {
+      margin: 0;
+    }
+
+    .menu-section {
+      padding: 30px;
+    }
+
+    .menu-section h3 {
+      margin-bottom: 20px;
+    }
+
+    .menu-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .menu-item {
+      border: 1px solid #ccc;
+      padding: 15px;
+      width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .menu-item h4 {
+      margin: 10px 0 5px;
+    }
+
+    .menu-item p {
+      margin: 5px 0;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #e74c3c;
+    }
+
+    iframe, video, audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    video {
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <h2>Glenary's Restaurant</h2>
+    <div>Menu · Popular Dishes</div>
+  </div>
+
+  <div class="menu-section">
+    <h3>Menu</h3>
+    <div class="menu-container">
+
+      <div class="menu-item">
+        <img src="C:\Users\Admin\Desktop\Assignment\Pizza.jpeg" alt="Pizza Supreme">
+        <h4>Pizza Supreme</h4>
+        <p>Pizza sauce, mozzarella, bacon, onion, beef mince, capsicum, pepperoni, mushrooms, olives</p>
+        <p class="price">Price: ₹250</p>
+
+        <!-- Embedded YouTube video -->
+        
+        <iframe src="C:\Users\Admin\Downloads\3196001-uhd_3840_2160_25fps.mp4" title="Pizza Video"></iframe>
+      
+        
+
+        <!-- Local or online audio file -->
+        <audio controls>
+          <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+
+      <div class="menu-item">
+        <img src="C:\Users\Admin\Desktop\Assignment\Panner.jpeg" alt="Paneer Tikka">
+        <h4>Paneer Tikka</h4>
+        <p>Paneer, Yogurt, Ground Spices, Bell Peppers, Onions, Baby Corn, Mushrooms</p>
+        <p class="price">Price: ₹300</p>
+
+        <!-- Embedded YouTube video -->
+        <iframe src="C:\Users\Admin\Downloads\12888289_1080_1920_30fps.mp4" title="Paneer Tikka Video"></iframe>
+      
+
+        <!-- Local or online audio file -->
+        <audio controls>
+          <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
